@@ -5,7 +5,6 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.cluster import KMeans
-from xgboost import XGBClassifier
 from sklearn.ensemble import BaggingClassifier, StackingClassifier
 from tensorflow.keras.models import Sequential, save_model
 from tensorflow.keras.layers import Dense, Dropout
